@@ -1,5 +1,47 @@
-title: Jayaprakash Sundararaj
-description: Software Engineer, Technical Lead | AI, ML, IR
-show_downloads: true
-google_analytics:
+# Setup
+title:               Jayaprakash Sundararaj
+tagline:             'Computer Scientist'
+description:         'Jayaprakash is an applied researcher and lead engineer at Google, Mountain View, where he heads a small team focused on Search Ranking and Recommendations. At Google, Jayaprakash worked on Web Search Ranking, Android SysUI and Intelligence, and Google Play Store Search Ranking. Jayaprakash completed his Masters in Computer Science and Engineering at IIT Bombay, where he was advised by Pushpak Bhattacharya.'
+url:                 https://jayaprakash.page
+baseurl:             ''
+paginate_path: "/blog/page:num/"
+paginate:            20
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Jayaprakash Sundararaj
+  url:               https://twitter.com/osjayaprakash
+  email:             osjayaprakash@gmail.com
+  twitter:           osjayaprakash
+  picture: https://jayaprakash.page/images/profile2.jpg
+
+twitter:
+  username: osjayaprakash
+  card: summary
+
+social:
+  name: Jayaprakash Sundararaj
+  links:
+    - https://twitter.com/osjayaprakash
+    - https://github.com/osjayaprakash
+
 theme: jekyll-theme-cayman
+
+defaults:
+  - values:
+      seo_description_max_words: 200
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
+
+seo_paginator_message: "%<current>s / %<total>s | "
+
