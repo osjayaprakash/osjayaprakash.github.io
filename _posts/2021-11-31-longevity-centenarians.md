@@ -45,11 +45,11 @@ permalink: /2021-11-31-longevity-centenarians-lifespan.html
 
 References
 
-  * [jeanne calment](https://en.wikipedia.org/wiki/Jeanne_Calment#Daily_routine)
+  * [Jeanne calment](https://en.wikipedia.org/wiki/Jeanne_Calment#Daily_routine)
   * BOOK: Long Bright Future
   * BOOK: Younger Next Year
-  * [stanford healthy aging](https://med.stanford.edu/healthyagingclass.html)
-  * [standford logevity project](https://www.longevity-project.com/)
+  * [Stanford healthy aging - online class](https://med.stanford.edu/healthyagingclass.html)
+  * [Standford logevity project](https://www.longevity-project.com/)
 
 
 
