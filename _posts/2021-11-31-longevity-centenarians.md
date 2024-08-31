@@ -5,12 +5,14 @@ categories: misc
 permalink: /2021-11-31-longevity-centenarians-lifespan.html
 ---
 
-> "How old would you be, if you didn't know how old you were?"
+> How old would you be, if you didn't know how old you were?
 > *Satchel Paige*
 
-> "You are always as young as your hope, and as old as your despair"
+> You are always as young as your hope, and as old as your despair
 > *Anonymous*
 
+> The man who works and is never bored, is never old. Work and interest in worthwhile things are the best remedy for old age. Each day I am reborn. Each day I must begin again.
+> *Pablo Casals*
 
 
 * Centerians are people who live longer than 100 years. 
