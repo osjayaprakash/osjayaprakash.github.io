@@ -1,7 +1,7 @@
 ---
 layout: post
 title: book - Four Agreements by Don Miguel Ruiz
-permalink: /2017-06-01-book-summary-four-agreements.md
+permalink: /2017-06-01-book-summary-four-agreements.html
 ---
 
 Don Miguel Ruiz written Four Agreements book. The goal of the book to provide guidance to attain personal freedom: living with greater happiness, peace, and authenticity by freeing ourselves from self-limited thoughts snd beliefs. This book is written based on Toltec wisdom. 
