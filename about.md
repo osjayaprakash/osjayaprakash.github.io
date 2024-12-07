@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Jayaprakash Sundararaj
-permalink: /index.html
+permalink: /index2.html
 redirect_from:
   - /about-me.html
 ---
