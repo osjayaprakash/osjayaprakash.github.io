@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: none
 title: Notes from Jayaprakash Sundararaj
 permalink: /links.html
 redirect_from:
