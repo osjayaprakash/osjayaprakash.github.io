@@ -10,7 +10,7 @@ redirect_from:
 ## notes from jayaprakash sundararaj
 
 ### finance
-* [bogleheads blogs](www.bogleheads.org)
+* [bogleheads blogs](https://www.bogleheads.org)
 * [r/frugal](https://www.reddit.com/r/Frugal/)
 * [r/personalfinance](https://www.reddit.com/r/personalfinance/)
 * 
