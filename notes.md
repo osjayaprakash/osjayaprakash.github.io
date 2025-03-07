@@ -13,7 +13,11 @@ redirect_from: notes.htm
 2. **have self-confidence**
     * it is important to trust yourself and have good amount of confidence in your abilities. it is difficult for others to trust you when you are not confident.
     * watch this [ted talk](https://www.youtube.com/watch?v=w-HYZv6HzAs)
+3.  **stand up for yourself**
+    * stand up for yourself - don't allow other(s) to mistreat you and take advantage of you.
+    * stand up for others - ask and support others when they are distressed situations.
 5. **work hard**
+    * <>
 7. **you are on your own (தன் கையே தனக்கு உதவி)**
     * take ownership of your journey. While seeking help is wise, don't expect it to always materialize. remember those who lend a hand. understand that everyone is focused on their own ambitions.
     * your life is your responsibility; step up and take charge.
