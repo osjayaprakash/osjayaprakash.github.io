@@ -19,19 +19,25 @@ redirect_from: notes.htm
 5. **work hard**
     * <>
 7. **you are on your own (தன் கையே தனக்கு உதவி)**
-    * take ownership of your journey. While seeking help is wise, don't expect it to always materialize. remember those who lend a hand. understand that everyone is focused on their own ambitions.
-    * your life is your responsibility; step up and take charge.
+    * take ownership of your journey. While seeking help is wise, don't expect it to always materialize.
+    * remember those who lend a hand.
+    * understand that everyone is focused on their own ambitions.
+    * your life is your responsibility ~~ step up and take charge.
 8. **do not please others**
-    * aiming to please others always end up badly. you must focus learning, output and best outcome.
-    * 
+    * aiming to please others always end up badly.
+    * you must focus learning, output and best outcome.
+    * do not say YES - before understanding fully and getting clarity needed. you must say NO as much as possible in life!
 10. **be organized**
     * be organized. have clarity with purporse.
     * do the work well and thorughly.
     * read more [big five personality traits](https://www.psychologytoday.com/us/basics/big-5-personality-traits)
     * **clarity**
 13. **be good at sales**
-14. **do best thing early; compound interest**
-15. 
+    * do not leave the oppurtunity to get visibility
+    * do not be shy to promote what you did - there is nothing wrong in that
+15. **do best thing early; compound interest**
+    * work hard in early!
+17. 
    
 
 
