@@ -4,8 +4,6 @@ title: Reading List
 permalink: /reading.html
 redirect_from:
   - /links
-  - /notes
-  - /notes.html
   - /books.html
   - /reading.html
 ---
