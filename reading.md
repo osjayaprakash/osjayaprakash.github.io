@@ -13,7 +13,6 @@ redirect_from:
 * [bogleheads blogs](https://www.bogleheads.org)
 * [r/frugal](https://www.reddit.com/r/Frugal/)
 * [r/personalfinance](https://www.reddit.com/r/personalfinance/)
-* 
 
 ### career
 * [sam altman](https://blog.samaltman.com/)
@@ -28,9 +27,6 @@ redirect_from:
 * [r/GetMotivated](https://www.reddit.com/r/GetMotivated/)
 * [r/productivity](https://www.reddit.com/r/productivity/)
 * [r/simpleliving](https://www.reddit.com/r/simpleliving/)
-
-### others
-* 
 
 
 
