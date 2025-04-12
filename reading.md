@@ -1,13 +1,15 @@
 ---
 layout: none
-title: Notes from Jayaprakash Sundararaj
-permalink: /links.html
+title: Reading List
+permalink: /reading.html
 redirect_from:
   - /links
   - /notes
   - /notes.html
+  - /books.html
+  - /reading.html
 ---
-## notes from jayaprakash sundararaj
+## Notes
 
 ### finance
 * [bogleheads blogs](https://www.bogleheads.org)
