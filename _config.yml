@@ -2,7 +2,7 @@
 title:               Jayaprakash Sundararaj
 tagline:             'Computer Scientist'
 description:         'Jayaprakash is an applied researcher and lead engineer at Google, Mountain View, where he heads a small team focused on Search Ranking and Recommendations. At Google, Jayaprakash worked on Web Search Ranking, Android SysUI and Intelligence, and Google Play Store Search Ranking. Jayaprakash completed his Masters in Computer Science and Engineering at IIT Bombay, where he was advised by Pushpak Bhattacharya.'
-url:                 https://jayaprakash.page
+url:                 https://https://osjayaprakash.github.io/
 baseurl:             ''
 paginate_path: "/blog/page:num/"
 paginate:            20
@@ -14,7 +14,7 @@ author:
   url:               https://twitter.com/osjayaprakash
   email:             osjayaprakash@gmail.com
   twitter:           osjayaprakash
-  picture: https://jayaprakash.page/images/profile2.jpg
+  picture: https://https://osjayaprakash.github.io/images/profile2.jpg
 
 twitter:
   username: osjayaprakash
