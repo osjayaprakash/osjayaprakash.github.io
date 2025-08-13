@@ -4,7 +4,7 @@ title: Jayaprakash Sundararaj - Engineer @ Google - Yahoo - IITB
 link: /index.html
 ---
 
-<p align="center">
+<p align="right">
   <a href="./images/jp.jpg">
     <img src="./images/jp.jpg" width="200" alt="Jayaprakash Sundararaj">
   </a>
