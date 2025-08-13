@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme | default: site.remote_theme }}";  // pulls in the theme CSS
+
+a:hover {
+  background-color: yellow;
+  font-size: 18px;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: yellow;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
+body {
+  line-height: 1.75;
+}

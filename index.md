@@ -5,6 +5,9 @@ link: /index.html
 ---
 
 ### JAYAPRAKASH SUNDARARAJ
+
+[<u>blog posts</u>](/blog/) [<u>linkedin</u>](http://linkedin.com/in/osjayaprakash){:target="_blank"} [<u>github</u>](https://github.com/osjayaprakash){:target="_blank"} [<u>iitb</u>](https://www.cse.iitb.ac.in/~jayaprakash12/){:target="_blank"}
+
 ---
 
 <p align="left">
@@ -12,6 +15,8 @@ link: /index.html
     <img src="./images/jp.jpg" width="125" alt="Jayaprakash Sundararaj">
   </a>
 </p>
+
+
 
 I am a Senior Software Engineer at [Google USA](https://www.google.com/), working in search ranking and personalization projects. My work focuses on developing and training deep learning models and leveraging large language models (LLMs) for search ranking. Notably, I launched: [1] Fact checking articles in Google News and Google Web Search, [2] On-Device Univeral Search in Pixel System Intelligence team, and [3] Query recommendations in Play Store Search Home.
 
@@ -53,7 +58,7 @@ I enjoy working on applied research problems and building usable projects that l
 
 #### Misc
 * Received over 20 Google Awards (Peer and Spot bonus) for my contributions.
-* Reviewer for ACL (2024), EMNLP (2024), IEEE TNNLS (2023, 2024).
+* Reviewer for ACL (2024, 2025), EMNLP (2024), IEEE TNNLS (2023, 2024).
 * Awarded as **Search Professional of the Year** 2024 by BCS Information Retrieval Specialist Group.
 * Elected as BCS Fellow member.
 * Awarded as Distinguished Alumni from Sona College of Technology, India (affiliated with Anna University, Chennai).
@@ -65,13 +70,6 @@ I enjoy working on applied research problems and building usable projects that l
 * Won over 20+ Programming competitions held in international technical symposiums (includes Bits Pilani Goa, Anna University Chennai).
 * Received **The Best Outgoing Student Award** during undergraduate studies.
 * Received **Leader Altogether Award from IT Department** during undergraduate studies.
-
-
-#### Contact
-* Twitter ([@osjayaprakash](https://twitter.com/osjayaprakash))
-* Github ([osjayaprakash](http://github.com/osjayaprakash))
-* LinkedIn ([osjayaprakash](http://linkedin.com/in/osjayaprakash))
-* IIT profile ([jayaprakash12](https://www.cse.iitb.ac.in/~jayaprakash12/))
 
 
 #### Talks
