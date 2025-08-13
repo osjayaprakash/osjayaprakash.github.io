@@ -4,8 +4,6 @@ tagline:             ''
 description:         ''
 url:                 'https://www.jayaprakash.net'
 baseurl:             ''
-paginate_path:       "/blog/page:num/"
-paginate:            20
 permalink:           pretty
 show_downloads:      false
 
@@ -25,7 +23,6 @@ defaults:
 
 plugins:
   - jekyll-remote-theme
-  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
