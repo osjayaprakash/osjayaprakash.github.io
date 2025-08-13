@@ -4,8 +4,6 @@ title: Jayaprakash Sundararaj - Engineer @ Google - Yahoo - IITB
 link: /index.html
 ---
 
-# Jayaprakash Sundararaj
-
 <br>
 
 <p align="center">
