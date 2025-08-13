@@ -14,16 +14,14 @@ link: /index.html
 
 I am a Senior Software Engineer at [Google USA](https://www.google.com/), working in search ranking and personalization projects. My work focuses on developing and training deep learning models and leveraging large language models (LLMs) for search ranking. Notably, I launched: [1] Fact checking articles in Google News and Google Web Search, [2] On-Device Univeral Search in Pixel System Intelligence team, and [3] Query recommendations in Play Store Search Home.
 
-I have a post-graduation degree in CSE from **IIT Bombay**, India & undergraduate degree in IT from **Anna University**, Chennai. 
+I have a post-graduation degree in CSE from **IIT Bombay**, India & undergraduate degree in IT from **Anna University**, Chennai. Previously, I have worked at **Yahoo! Research** and **Alcatel Lucent Labs**.
 
-Previously, I have worked at **Yahoo! Research** and **Alcatel Lucent Labs**.
-
-<br><br>
+<br>
 
 ### Interests
 I enjoy working on applied research problems and building usable projects that leverage state-of-the-art machine learning models. Lately, I'm focused on pursuing the interpretability and explainability aspects of machine learning research.
 
-<br><br>
+<br>
 
 ### Projects
 * **[Google] Query recommendations in Play Store Search Home**
@@ -43,7 +41,7 @@ I enjoy working on applied research problems and building usable projects that l
 * **[IITB] Statistical Machine Translation**
     * I was involved in research on statistical machine translation at IIT Bombay. The focus was on developing and improving translation models for Indian languages, utilizing statistical techniques to enhance accuracy and fluency in translations.
 
-<br><br>
+<br>
 
 ### Publications
 * [2024] J Sundararaj, A Vyas, B Gonzalez-Maldonado, Automated LaTeX Code Generation from Handwritten Math Expressions Using Vision Transformer, arXiv preprint arXiv:2412.03853, 2024. [https://arxiv.org/abs/2412.03853](https://arxiv.org/abs/2412.03853)
@@ -71,7 +69,7 @@ I enjoy working on applied research problems and building usable projects that l
 * Received **The Best Outgoing Student Award** during undergraduate studies.
 * Received **Leader Altogether Award from IT Department** during undergraduate studies.
 
-<br><br>
+<br>
 
 ### Contact
 * Twitter ([@osjayaprakash](https://twitter.com/osjayaprakash))
@@ -79,7 +77,7 @@ I enjoy working on applied research problems and building usable projects that l
 * LinkedIn ([osjayaprakash](http://linkedin.com/in/osjayaprakash))
 * IIT profile ([jayaprakash12](https://www.cse.iitb.ac.in/~jayaprakash12/))
 
-<br><br>
+<br>
 
 ### Talks
 * TBD, Futurist Expo, 21-23 March 2025
