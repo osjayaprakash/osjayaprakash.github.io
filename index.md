@@ -6,7 +6,7 @@ link: /index.html
 
 ### JAYAPRAKASH SUNDARARAJ
 
-[<u>blog posts</u>](/blog/) [<u>linkedin</u>](http://linkedin.com/in/osjayaprakash){:target="_blank"} [<u>github</u>](https://github.com/osjayaprakash){:target="_blank"} [<u>iitb</u>](https://www.cse.iitb.ac.in/~jayaprakash12/){:target="_blank"}
+[<u>home</u>](/) [<u>blog</u>](/blog/) [<u>linkedin</u>](http://linkedin.com/in/osjayaprakash){:target="_blank"} [<u>github</u>](https://github.com/osjayaprakash){:target="_blank"} [<u>iitb</u>](https://www.cse.iitb.ac.in/~jayaprakash12/){:target="_blank"}
 
 ---
 
