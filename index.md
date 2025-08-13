@@ -4,11 +4,12 @@ title: Jayaprakash Sundararaj - Engineer @ Google - Yahoo - IITB
 link: /index.html
 ---
 
+<!--
 <p align="right">
   <a href="./images/jp.jpg">
     <img src="./images/jp.jpg" width="200" alt="Jayaprakash Sundararaj">
   </a>
-</p>
+</p>-->
 
 I am a Senior Software Engineer at [Google USA](https://www.google.com/), working in search ranking and personalization projects. My work focuses on developing and training deep learning models and leveraging large language models (LLMs) for search ranking. Notably, I launched: [1] Fact checking articles in Google News and Google Web Search, [2] On-Device Univeral Search in Pixel System Intelligence team, and [3] Query recommendations in Play Store Search Home.
 
