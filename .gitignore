@@ -1,0 +1,8 @@
+# Jekyll build metadata
+.jekyll-metadata
+
+# Bundler lock file (optional if you don’t want to lock gem versions)
+Gemfile.lock
+
+# Generated site output
+_site/
