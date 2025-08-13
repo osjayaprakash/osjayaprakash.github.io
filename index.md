@@ -16,14 +16,12 @@ I am a Senior Software Engineer at [Google USA](https://www.google.com/), workin
 
 I have a post-graduation degree in CSE from **IIT Bombay**, India & undergraduate degree in IT from **Anna University**, Chennai. Previously, I have worked at **Yahoo! Research** and **Alcatel Lucent Labs**.
 
-<br>
 
-### Interests
+#### Interests
 I enjoy working on applied research problems and building usable projects that leverage state-of-the-art machine learning models. Lately, I'm focused on pursuing the interpretability and explainability aspects of machine learning research.
 
-<br>
 
-### Projects
+#### Projects
 * **[Google] Query recommendations in Play Store Search Home**
     * As part of the Google Play Search team, I contributed to developing query recommendation algorithms aimed at improving user engagement and discovery within the Play Store. This project focused on leveraging user behavior data and query semantics to provide personalized, high-quality query suggestions.
 * **[Google] On-Device Universal Search in Pixel System Intelligence Team**
@@ -41,9 +39,8 @@ I enjoy working on applied research problems and building usable projects that l
 * **[IITB] Statistical Machine Translation**
     * I was involved in research on statistical machine translation at IIT Bombay. The focus was on developing and improving translation models for Indian languages, utilizing statistical techniques to enhance accuracy and fluency in translations.
 
-<br>
 
-### Publications
+#### Publications
 * [2024] J Sundararaj, A Vyas, B Gonzalez-Maldonado, Automated LaTeX Code Generation from Handwritten Math Expressions Using Vision Transformer, arXiv preprint arXiv:2412.03853, 2024. [https://arxiv.org/abs/2412.03853](https://arxiv.org/abs/2412.03853)
 * [2024] J Kumar, K Jayakumar, J Sundararaj, ESMCrystal: Enhancing Protein Crystallization Prediction Through Protein Embeddings, Proceedings of CIBB, 2024. [https://easychair.org/publications/preprint/FTCX/](https://easychair.org/publications/preprint/FTCX/)
 * [2015] J Jayanth, J Sundararaj, P Bhattacharyya, Monotone submodularity in opinion summaries, Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing. [https://doi.org/10.18653/v1/D15-1017](https://doi.org/10.18653/v1/D15-1017)
@@ -52,9 +49,8 @@ I enjoy working on applied research problems and building usable projects that l
 * [2013] J Sundararaj, Survey on Semantic Web and Search Techniques, Indian Institute of Technology, Bombay
 * [2013] J Sundararaj, Technical Paper on Kappa Score - Interrater Annotation Agreement, Indian Institute of Technology, Bombay
 
-<br><br>
 
-### Misc
+#### Misc
 * Received over 20 Google Awards (Peer and Spot bonus) for my contributions.
 * Reviewer for ACL (2024), EMNLP (2024), IEEE TNNLS (2023, 2024).
 * Awarded as **Search Professional of the Year** 2024 by BCS Information Retrieval Specialist Group.
@@ -69,17 +65,15 @@ I enjoy working on applied research problems and building usable projects that l
 * Received **The Best Outgoing Student Award** during undergraduate studies.
 * Received **Leader Altogether Award from IT Department** during undergraduate studies.
 
-<br>
 
-### Contact
+#### Contact
 * Twitter ([@osjayaprakash](https://twitter.com/osjayaprakash))
 * Github ([osjayaprakash](http://github.com/osjayaprakash))
 * LinkedIn ([osjayaprakash](http://linkedin.com/in/osjayaprakash))
 * IIT profile ([jayaprakash12](https://www.cse.iitb.ac.in/~jayaprakash12/))
 
-<br>
 
-### Talks
+#### Talks
 * TBD, Futurist Expo, 21-23 March 2025
 * Getting started with LLM applications at SlavConf Envision, 26-27 July 2024.
 * Delivered a technical talk on Kappa Score - Inter Annotator Agreement at IIT Bombay.
