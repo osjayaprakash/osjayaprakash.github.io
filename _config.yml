@@ -10,12 +10,12 @@ show_downloads:      false
 author:
   name:              Jayaprakash Sundararaj
   url:               ''
-  email:             ''
+  email:             'osjp463@gmail.com'
   picture:           ''
 
 # theme: jekyll-theme-hacker
-# remote_theme: pages-themes/hacker@v0.2.0
 remote_theme: pages-themes/slate@v0.2.0
+#theme: jekyll-theme-slate
 
 defaults:
   - values:
@@ -25,6 +25,8 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-github-metadata
   - jekyll-sitemap
+  - faraday-retry
 
 seo_paginator_message: "%<current>s / %<total>s | "
