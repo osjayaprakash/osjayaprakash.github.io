@@ -7,6 +7,27 @@ layout: default
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.jayaprakash.net/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.jayaprakash.net/blog/"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "ProfilePage",
   "dateCreated": "2024-06-23T12:34:00-05:00",
   "dateModified": "2024-12-07T14:53:00-05:00",
@@ -33,7 +54,13 @@ layout: default
     "subjectOf": [
       {
         "@type": "Article",
-        "name": "BCS (British Computer Society) featuring Jayaprakash Sundararaj",
+        "headline": "BCS (British Computer Society) featuring Jayaprakash Sundararaj",
+        "author": [{
+          "@type": "Organization",
+          "name": "British Computer Society",
+          "url": "https://www.bcs.org"
+        }],
+        "image": ["https://www.cse.iitb.ac.in/~jayaprakash12/images/jayaprakash.jpg"],
         "url": "https://www.bcs.org/membership-and-registrations/our-members/jayaprakash-sundararaj-fbcs/"
       }
     ],
@@ -49,7 +76,7 @@ layout: default
       "Jayaprakash S",
       "osjayaprakash",
       "J Sundararaj",
-      "Jayaprakash Sundararaj",
+      "Jayaprakash Sundararaj"
     ],
     "familyName": "Sundararaj",
     "givenName": "Jayaprakash",
@@ -74,7 +101,10 @@ layout: default
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Mountain View",
-          "addressRegion": "CA"
+          "addressRegion": "CA",
+          "postalCode": "94043",
+          "streetAddress": "1600 Amphitheatre Parkway, Mountain View, CA",
+          "addressCountry": "US"
         }
       }
     ],
