@@ -2,22 +2,6 @@
 layout: default
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "{{ page.title | escape }}",
-  "image": [],
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
-  "author": [{
-      "@type": "Person",
-      "name": "Jayaprakash Sundararaj",
-      "url": "https://www.jayaprakash.net/"
-    }]
-}
-</script>
-
 <h4> {{ page.title }} </h4>
 <p><span class="small"><em>{{ page.date | date: "%-d %B %Y" }}</em></span></p>
 
