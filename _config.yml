@@ -9,9 +9,9 @@ show_downloads:      false
 
 author:
   name:              Jayaprakash Sundararaj
-  url:               ''
+  url:               'https://www.jayaprakash.net/'
   email:             'osjp463@gmail.com'
-  picture:           ''
+  picture:           'https://www.jayaprakash.net/images/jp.jpg'
 
 # theme: jekyll-theme-hacker
 remote_theme: pages-themes/slate@v0.2.0
