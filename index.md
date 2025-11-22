@@ -6,28 +6,25 @@ link: /index.html
 
 ### JAYAPRAKASH SUNDARARAJ
 
-[<u>home</u>](/) [<u>blog</u>](/blog/) [<u>linkedin</u>](http://linkedin.com/in/osjayaprakash){:target="_blank"} [<u>github</u>](https://github.com/osjayaprakash){:target="_blank"} [<u>iitb</u>](https://www.cse.iitb.ac.in/~jayaprakash12/){:target="_blank"}
+<nav>
+  <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a> &middot;
+  <a href="/blog/" {% if page.url contains "/blog/" %}class="active"{% endif %}>Blog</a> &middot;
+  <a href="https://linkedin.com/in/osjayaprakash" target="_blank" rel="noopener noreferrer">LinkedIn</a> &middot;
+  <a href="https://github.com/osjayaprakash" target="_blank" rel="noopener noreferrer">GitHub</a> &middot;
+  <a href="https://www.cse.iitb.ac.in/~jayaprakash12/" target="_blank" rel="noopener noreferrer">IIT Bombay</a>
+</nav>
+
 
 ---
 
-<p align="left">
-  <a href="./images/jp.jpg">
-    <img src="./images/jp.jpg" width="125" alt="Jayaprakash Sundararaj">
-  </a>
-</p>
+<img src="/images/jp.jpg" width="125" alt="Jayaprakash Sundararaj" style="border-radius: 8px;">
 
-
-
-I am a Senior Software Engineer at [Google USA](https://www.google.com/), working in search ranking and personalization projects. My work focuses on developing and training deep learning models and leveraging large language models (LLMs) for search ranking. Notably, I launched: [1] Fact checking articles in Google News and Google Web Search, [2] On-Device Univeral Search in Pixel System Intelligence team, and [3] Query recommendations in Play Store Search Home.
+I am a Senior Software Engineer at [Google USA](https://www.google.com/), working in search ranking and personalization projects. My work focuses on developing and training deep learning models and leveraging large language models (LLMs) for search ranking.
 
 I have a post-graduation degree in CSE from **IIT Bombay**, India & undergraduate degree in IT from **Anna University**, Chennai. Previously, I have worked at **Yahoo! Research** and **Alcatel Lucent Labs**.
 
 
-#### Interests
-I enjoy working on applied research problems and building usable projects that leverage state-of-the-art machine learning models. Lately, I'm focused on pursuing the interpretability and explainability aspects of machine learning research.
-
-
-#### Projects
+#### PROJECTS
 * **[Google] Query recommendations in Play Store Search Home**
     * As part of the Google Play Search team, I contributed to developing query recommendation algorithms aimed at improving user engagement and discovery within the Play Store. This project focused on leveraging user behavior data and query semantics to provide personalized, high-quality query suggestions.
 * **[Google] On-Device Universal Search in Pixel System Intelligence Team**
@@ -46,7 +43,7 @@ I enjoy working on applied research problems and building usable projects that l
     * I was involved in research on statistical machine translation at IIT Bombay. The focus was on developing and improving translation models for Indian languages, utilizing statistical techniques to enhance accuracy and fluency in translations.
 
 
-#### Publications
+#### PUBLICATIONS
 * [2024] J Sundararaj, A Vyas, B Gonzalez-Maldonado, Automated LaTeX Code Generation from Handwritten Math Expressions Using Vision Transformer, arXiv preprint arXiv:2412.03853, 2024. [https://arxiv.org/abs/2412.03853](https://arxiv.org/abs/2412.03853)
 * [2024] J Kumar, K Jayakumar, J Sundararaj, ESMCrystal: Enhancing Protein Crystallization Prediction Through Protein Embeddings, Proceedings of CIBB, 2024. [https://easychair.org/publications/preprint/FTCX/](https://easychair.org/publications/preprint/FTCX/)
 * [2015] J Jayanth, J Sundararaj, P Bhattacharyya, Monotone submodularity in opinion summaries, Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing. [https://doi.org/10.18653/v1/D15-1017](https://doi.org/10.18653/v1/D15-1017)
@@ -70,10 +67,3 @@ I enjoy working on applied research problems and building usable projects that l
 * Won over 20+ Programming competitions held in international technical symposiums (includes Bits Pilani Goa, Anna University Chennai).
 * Received **The Best Outgoing Student Award** during undergraduate studies.
 * Received **Leader Altogether Award from IT Department** during undergraduate studies.
-
-
-#### Talks
-* TBD, Futurist Expo, 21-23 March 2025
-* Getting started with LLM applications at SlavConf Envision, 26-27 July 2024.
-* Delivered a technical talk on Kappa Score - Inter Annotator Agreement at IIT Bombay.
-* Presented a seminar on Semantic Web at IIT Bombay.

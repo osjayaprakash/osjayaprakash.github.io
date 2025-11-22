@@ -59,6 +59,8 @@ The latest tokens are the most informative for predicting the next word.
   * [Fast WordPiece Tokenization](https://aclanthology.org/2021.emnlp-main.160)
   * [Tokenization Is More Than Compression](https://aclanthology.org/2024.emnlp-main.40)
   * [Wikipedia about BPE](https://en.wikipedia.org/wiki/Byte-pair_encoding)
+  * [Byte Pair Encoding is Suboptimal for Language Model Pretraining]
+  * [Kaggle Intro](https://www.kaggle.com/code/william2020/how-openai-s-byte-pair-encoding-bpe-works)
 
 * BPE
   * todo 
