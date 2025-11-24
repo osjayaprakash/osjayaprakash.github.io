@@ -6,15 +6,6 @@ link: /index.html
 
 ### JAYAPRAKASH SUNDARARAJ
 
-<nav>
-  <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a> &middot;
-  <a href="/blog/" {% if page.url contains "/blog/" %}class="active"{% endif %}>Blog</a> &middot;
-  <a href="https://linkedin.com/in/osjayaprakash" target="_blank" rel="noopener noreferrer">LinkedIn</a> &middot;
-  <a href="https://github.com/osjayaprakash" target="_blank" rel="noopener noreferrer">GitHub</a> &middot;
-  <a href="https://www.cse.iitb.ac.in/~jayaprakash12/" target="_blank" rel="noopener noreferrer">IIT Bombay</a>
-</nav>
-
-
 ---
 
 <img src="/images/jp.jpg" width="125" alt="Jayaprakash Sundararaj" style="border-radius: 8px;">

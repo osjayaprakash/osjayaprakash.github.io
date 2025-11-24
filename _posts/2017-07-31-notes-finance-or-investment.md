@@ -2,6 +2,7 @@
 layout: post
 title: Notes on finance and investments
 permalink: notes-on-finance-or-investment.html
+tags: [finance]
 ---
 
 * Links
@@ -10,7 +11,7 @@ permalink: notes-on-finance-or-investment.html
 	* [4% rule](https://www.mrmoneymustache.com/2012/05/29/how-much-do-i-need-for-retirement/)
 
 
-* Advice / Investing principles 
+* Advice / Investing principles
 	* Live below your means - do not allow lifestyle inflation to outpace your income
 	* Never bear too much or too little risk - balance ambition with security
 	* Invest early and often - Compound interest is the eighth wonder of the world
@@ -22,17 +23,17 @@ permalink: notes-on-finance-or-investment.html
 		- declutter
 		- embrace minimalism
 	* Avoid reading news especially clickbaity and fear-inducing ones
-	* DCA - Dollar cost averaging - invest steadily over time, regardless of market conditions 
+	* DCA - Dollar cost averaging - invest steadily over time, regardless of market conditions
 	* Invest in your health
 
-* Order of investments should approximately follow: 
+* Order of investments should approximately follow:
 	1. 401k match
 	1. Health savings account (if HDHP is used), LPFSA
 	1. 401k pretax
 	1. 401K aftertax
 	1. Roth IRA
 	1. Medium interest debt
-	1. 529 
+	1. 529
 	1. Taxable investment
 	1. Low interest debt
 

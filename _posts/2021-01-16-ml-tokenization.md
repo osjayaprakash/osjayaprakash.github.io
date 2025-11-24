@@ -2,6 +2,7 @@
 layout: post
 title: ML Tokenization
 permalink: ml-tokenization.html
+tags: [machine-learning, llm]
 ---
 * Questions
   * <mark> Write about KV optimizations </mark>
@@ -18,7 +19,7 @@ permalink: ml-tokenization.html
 
 * breaks down text (or other data) into smaller units called tokens (ints) before passing them into a ml model
   * machines don't understand the text, they can work with numbers
-  * Embedding Layer converts the token ids into dense vectors (embeddings). 
+  * Embedding Layer converts the token ids into dense vectors (embeddings).
   * Embeddings capture semantic meaning
 * tokens are not necessarily words (it used to be)
   * subwords (e.g. “play” + “ing”)
@@ -30,7 +31,7 @@ permalink: ml-tokenization.html
   * Wordpiece
   * Sentencepiece
 * number of unique token ids (vocabulary size) is between 30,000 to 100,000
-* if the vocab is too small, then the words are broken down and split into longer sequences. 
+* if the vocab is too small, then the words are broken down and split into longer sequences.
   * the model must learn and longers inputs for text!
   * more tokens is more compute
   * worst semantic understanding ~ assume if a word is broken into individual chars - which may not itself carry useful information.
@@ -38,7 +39,7 @@ permalink: ml-tokenization.html
   * having token for every number mentioned in the webpage, dates, phone numbers, address etc!!
   * similar words might have different token ids - tokenize, tokenization, tokenizing, tokenized
   * poor learning, generalization
-* special tokens exist for - 
+* special tokens exist for -
   * `[PAD]` – padding
   * `[UNK]` – unknown / out-of-vocab
   * `[CLS]` – start-of-sequence (classification token)
@@ -48,8 +49,8 @@ permalink: ml-tokenization.html
   * System/user/assistant role tokens in chat models
   * Coding agents some special tokens for reserved words in languages (including tabs for pythons)
 * padding or truncation
-  * right padding is most common and default in hf. used especially in classification, seq2seq, BERT/T5 ~ 
-  * left padding is useful for batched autoregressive generation with decoder-only models (GPT-like, code models, Qwen, LLaMA, etc.). improves KV-Optimizations. 
+  * right padding is most common and default in hf. used especially in classification, seq2seq, BERT/T5 ~
+  * left padding is useful for batched autoregressive generation with decoder-only models (GPT-like, code models, Qwen, LLaMA, etc.). improves KV-Optimizations.
     * most recent tokens (at the end) are most relevant. In autoregressive generation, the model only “looks left.”
 The latest tokens are the most informative for predicting the next word.
 
@@ -63,9 +64,9 @@ The latest tokens are the most informative for predicting the next word.
   * [Kaggle Intro](https://www.kaggle.com/code/william2020/how-openai-s-byte-pair-encoding-bpe-works)
 
 * BPE
-  * todo 
+  * todo
 
-* EXAMPLE - 
+* EXAMPLE -
 
 ```py
 from transformers import AutoTokenizer
@@ -87,9 +88,9 @@ print("Total tokens (including added):", len(tok))
 
 text = "Tokenization is Cool! 😎"
 # text = """
-#     import numpy as np; 
-#     import pandas as pd; 
-#     import matplotlib.pyplot as plt; 
+#     import numpy as np;
+#     import pandas as pd;
+#     import matplotlib.pyplot as plt;
 #     import seaborn as sns;
 
 #     a = np.zeros((2,10))

@@ -14,7 +14,7 @@
   <body>
 
 <!-- HEADER -->
-<!--     
+<!--
     <div id="header_wrap" class="outer">
         <header class="inner">
           {% if site.github.is_project_page %}
@@ -36,6 +36,9 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+        <div style="margin-bottom: 30px;">
+          {% include nav.html %}
+        </div>
         {{ content }}
       </section>
     </div>

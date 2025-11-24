@@ -11,17 +11,126 @@ layout: default
   {% assign posts = site.posts %}
 
   {%- if posts.size > 0 -%}
+
+    <!-- Collect all unique tags -->
+    {% assign all_tags = "" | split: "" %}
+    {% for post in posts %}
+      {% if post.tags %}
+        {% for tag in post.tags %}
+          {% unless all_tags contains tag %}
+            {% assign all_tags = all_tags | push: tag %}
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    {% assign all_tags = all_tags | sort %}
+
+    <!-- Tag filter buttons -->
+    {% if all_tags.size > 0 %}
+      <div class="tag-filter" style="margin: 20px 0;">
+        <button class="tag-btn active" data-tag="all" onclick="filterPosts('all')" style="margin: 4px; padding: 6px 12px; border: 1px solid #ddd; background: #333; color: #fff; cursor: pointer; border-radius: 4px; font-size: 14px;">All</button>
+        {%- for tag in all_tags -%}
+          <button class="tag-btn" data-tag="{{ tag }}" onclick="filterPosts('{{ tag }}')" style="margin: 4px; padding: 6px 12px; border: 1px solid #ddd; background: #fff; color: #333; cursor: pointer; border-radius: 4px; font-size: 14px;">{{ tag }}</button>
+        {%- endfor -%}
+      </div>
+    {% endif %}
+
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
-    <ul class="post-list">
+
+    <ul class="post-list" style="list-style: none; padding: 0;">
       {%- for post in posts -%}
-      <li>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+      <li class="post-item" data-tags="{% if post.tags %}{{ post.tags | join: ',' }}{% endif %}" style="margin: 20px 0; padding: 15px; border-left: 3px solid #eee; transition: all 0.2s ease;">
+          <div class="post-meta" style="font-size: 14px; color: #666; margin-bottom: 8px;">
+            <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="separator"> &middot; </span>
+            <span class="read-time">{{ post.content | number_of_words | divided_by: 200 }} min read</span>
+            {% if post.tags %}
+              <span class="separator"> &middot; </span>
+              {% for tag in post.tags %}
+                <span class="post-tag-badge" data-tag="{{ tag }}" onclick="filterPosts('{{ tag }}')" style="background: #f0f0f0; padding: 2px 8px; border-radius: 3px; font-size: 12px; margin-left: 4px; cursor: pointer; transition: all 0.2s ease;">{{ tag }}</span>
+              {% endfor %}
+            {% endif %}
+          </div>
+          <a class="post-link" href="{{ post.url | relative_url }}" style="font-size: 18px; font-weight: 500; color: #333; text-decoration: none; transition: color 0.2s ease;">
             {{ post.title | escape }}
           </a>
       </li>
       {%- endfor -%}
     </ul>
   {%- endif -%}
+
+<style>
+  /* Button hover effects */
+  .tag-btn:hover {
+    background: #555 !important;
+    color: #fff !important;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .tag-btn.active:hover {
+    background: #000 !important;
+  }
+
+  .tag-btn {
+    transition: all 0.2s ease;
+  }
+
+  /* Post item hover effects */
+  .post-item:hover {
+    border-left-color: #333 !important;
+    background: #fafafa;
+    transform: translateX(5px);
+  }
+
+  /* Post title hover effects */
+  .post-link:hover {
+    color: #0066cc !important;
+  }
+
+  /* Tag badge hover effects */
+  .post-tag-badge:hover {
+    background: #333 !important;
+    color: #fff !important;
+    transform: translateY(-1px);
+  }
+</style>
+
+<script>
+function filterPosts(tag) {
+  const posts = document.querySelectorAll('.post-item');
+  const buttons = document.querySelectorAll('.tag-btn');
+
+  // Update button states
+  buttons.forEach(btn => {
+    if (btn.dataset.tag === tag) {
+      btn.classList.add('active');
+      btn.style.background = '#333';
+      btn.style.color = '#fff';
+    } else {
+      btn.classList.remove('active');
+      btn.style.background = '#fff';
+      btn.style.color = '#333';
+    }
+  });
+
+  // Filter posts with fade animation
+  posts.forEach(post => {
+    const postTags = post.dataset.tags ? post.dataset.tags.split(',') : [];
+    if (tag === 'all' || postTags.includes(tag)) {
+      post.style.display = '';
+      post.style.opacity = '0';
+      setTimeout(() => { post.style.opacity = '1'; }, 10);
+    } else {
+      post.style.opacity = '0';
+      setTimeout(() => { post.style.display = 'none'; }, 200);
+    }
+  });
+
+  // Scroll to top smoothly
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
 

@@ -3,16 +3,25 @@ layout: blog
 title: 'NOTES'
 ---
 
-<nav>
-  <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a> &middot;
-  <a href="/blog/" {% if page.url contains "/blog/" %}class="active"{% endif %}>Blog</a> &middot;
-  <a href="https://linkedin.com/in/osjayaprakash" target="_blank" rel="noopener noreferrer">LinkedIn</a> &middot;
-  <a href="https://github.com/osjayaprakash" target="_blank" rel="noopener noreferrer">GitHub</a> &middot;
-  <a href="https://www.cse.iitb.ac.in/~jayaprakash12/" target="_blank" rel="noopener noreferrer">IIT Bombay</a>
-</nav>
-
----
-
-
 <!-- * [pinned] [notes on investment or finance](/notes-on-finance-or-investment.html)
 * [pinned] [ai papers]() -->
+
+<ul class="post-list">
+  {%- for post in posts -%}
+  <li class="post-item">
+    <div class="post-meta">
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <span class="separator">·</span>
+      <span class="read-time">{{ post.content | number_of_words | divided_by: 200 }} min read</span>
+    </div>
+    <a class="post-link" href="{{ post.url | relative_url }}">
+      {{ post.title | escape }}
+    </a>
+    {%- if post.excerpt -%}
+      <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+    {%- endif -%}
+  </li>
+  {%- endfor -%}
+</ul>
+
+

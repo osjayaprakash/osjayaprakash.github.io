@@ -2,16 +2,50 @@
 layout: default
 ---
 
-<h4> {{ page.title }} </h4>
-<p><span class="small"><em>{{ page.date | date: "%-d %B %Y" }}</em></span></p>
+<article class="post">
+  <header class="post-header">
+    <h2 style="margin-bottom: 8px;">{{ page.title }}</h2>
 
-<hr>
+    <div class="post-meta" style="font-size: 14px; color: #666; margin-bottom: 20px;">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%-d %B %Y" }}
+      </time>
+      <span> &middot; </span>
+      <span>{{ content | number_of_words | divided_by: 200 }} min read</span>
+      {% assign len_tags = page.tags | size | default: 0 %}
+      {% if len_tags > 0 %}
+        <span> &middot; </span>
+        {%- for tag in page.tags -%}
+          <span style="background: #f0f0f0; padding: 2px 8px; border-radius: 3px; font-size: 12px; margin-left: 4px;">{{ tag }}</span>
+        {%- endfor -%}
+      {% endif %}
+    </div>
+  </header>
 
-<!--<p class="view">by {{ page.author | default: site.author }}</p>-->
+  <hr style="margin-bottom: 30px;">
 
-{{content}}
+  <div class="post-content">
+    {{ content }}
+  </div>
 
-{% assign len_tags = page.tags | size | default: 0 %}
-{% if len_tags > 0 %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
+  <!-- Navigation to previous/next posts -->
+  <nav class="post-nav" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; display: flex; justify-content: space-between;">
+    <div style="flex: 1;">
+      {% if page.previous.url %}
+        <div style="font-size: 12px; color: #999; text-transform: uppercase; margin-bottom: 4px;">Previous</div>
+        <a href="{{ page.previous.url }}" style="color: #333; text-decoration: none; font-weight: 500;">← {{ page.previous.title }}</a>
+      {% endif %}
+    </div>
+    <div style="flex: 1; text-align: right;">
+      {% if page.next.url %}
+        <div style="font-size: 12px; color: #999; text-transform: uppercase; margin-bottom: 4px;">Next</div>
+        <a href="{{ page.next.url }}" style="color: #333; text-decoration: none; font-weight: 500;">{{ page.next.title }} →</a>
+      {% endif %}
+    </div>
+  </nav>
+</article>
+
+<style>
+  .post-content a { text-decoration: underline; }
+  .post-nav a:hover { color: #0066cc; }
+</style>
