@@ -1,11 +1,12 @@
 # Setup
 title:               'Jayaprakash Sundararaj'
-tagline:             ''
+tagline:             'Engineer'
 description:         ''
 url:                 'https://www.jayaprakash.net'
 baseurl:             ''
 permalink:           pretty
 show_downloads:      false
+repository:          osjayaprakash/osjayaprakash.github.io
 
 author:
   name:              Jayaprakash Sundararaj
@@ -13,7 +14,8 @@ author:
   email:             'osjp463@gmail.com'
   picture:           'https://www.jayaprakash.net/images/jp.jpg'
 
-# theme: jekyll-theme-hacker
+#remote_theme: jekyll-theme-hacker
+# remote_theme: pages-themes/slate
 remote_theme: pages-themes/slate@v0.2.0
 #theme: jekyll-theme-slate
 
