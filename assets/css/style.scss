@@ -1,6 +1,8 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 @import "{{ site.theme | default: site.remote_theme }}";  // pulls in the theme CSS
 
 nav a.active {
@@ -9,10 +11,10 @@ nav a.active {
   border-bottom: 2px solid #000;
 }
 
-a:hover {
-  background-color: yellow;
-  font-size: 18px;
-}
+// a:hover {
+//   background-color: yellow;
+//   font-size: 18px;
+// }
 
 ::-moz-selection { /* Code for Firefox */
   color: red;
@@ -25,6 +27,7 @@ a:hover {
 }
 
 body {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   line-height: 1.75;
 }
 
