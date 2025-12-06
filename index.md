@@ -8,6 +8,8 @@ link: /index.html
 
 --- -->
 
+<img src="/images/jp.jpg" alt="Jayaprakash Sundararaj" width="125" style="border-radius: 20px; display: block; margin-left: auto; margin-right: auto;" />
+
 <div style="text-align: justify;" markdown="1">
 
 I am a Senior Software Engineer at [Google USA](https://www.google.com/), working in search ranking and personalization projects. My work focuses on developing and training deep learning models and leveraging large language models (LLMs) for search ranking. I have a post-graduation degree in CSE from **IIT Bombay**, India & undergraduate degree in IT from **Anna University**, Chennai. Previously, I have worked at **Yahoo! Research** and **Alcatel Lucent Labs**.
@@ -76,5 +78,3 @@ I am a Senior Software Engineer at [Google USA](https://www.google.com/), workin
 * Received **Leader Altogether Award from IT Department** during undergraduate studies.
 
 </div>
-
-<img src="/images/jp.jpg" alt="Jayaprakash Sundararaj" width="125" style="border-radius: 8px;" />
