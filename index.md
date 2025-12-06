@@ -4,9 +4,9 @@ title: Jayaprakash Sundararaj - Engineer @ Google - Yahoo - IITB
 link: /index.html
 ---
 
-### JAYAPRAKASH SUNDARARAJ
+<!-- ### JAYAPRAKASH SUNDARARAJ
 
----
+--- -->
 
 <div style="text-align: justify;" markdown="1">
 

@@ -23,5 +23,3 @@ title: 'NOTES'
   </li>
   {%- endfor -%}
 </ul>
-
-
