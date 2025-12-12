@@ -8,7 +8,7 @@ link: /index.html
 
 --- -->
 
-<img src="/images/jp.jpg" alt="Jayaprakash Sundararaj" width="125" style="border-radius: 20px; display: block; margin-left: auto; margin-right: auto;" />
+<!-- <img src="/images/jp.jpg" alt="Jayaprakash Sundararaj" width="125" style="border-radius: 20px; display: block; margin-left: auto; margin-right: auto;" /> -->
 
 <div style="text-align: justify;" markdown="1">
 
