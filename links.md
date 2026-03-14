@@ -16,3 +16,4 @@ permalink: /links.html
 * <https://hvpandya.com/> - individual blog
 * <https://blog.samaltman.com/> - individual blog
 * <https://karpathy.bearblog.dev/>, <https://karpathy.github.io/>
+* <https://www.optoutprescreen.com>
