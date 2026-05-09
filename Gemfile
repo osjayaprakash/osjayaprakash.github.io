@@ -12,4 +12,5 @@ gem "webrick", "~> 1.9"
 # This gem bundles all the necessary Jekyll-related dependencies for GitHub Pages
 gem "github-pages", group: :jekyll_plugins
 gem 'faraday-retry'
+gem "no-style-please"
 

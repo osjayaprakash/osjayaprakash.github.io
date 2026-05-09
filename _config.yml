@@ -14,10 +14,11 @@ author:
   email:             'osjp463@gmail.com'
   picture:           'https://www.jayaprakash.net/images/jp.jpg'
 
-#remote_theme: jekyll-theme-hacker
+# remote_theme: jekyll-theme-hacker
 # remote_theme: pages-themes/slate
-remote_theme: pages-themes/slate@v0.2.0
+# remote_theme: pages-themes/slate@v0.2.0
 #theme: jekyll-theme-slate
+theme: no-style-please
 
 defaults:
   - values:
@@ -32,3 +33,16 @@ plugins:
   - faraday-retry
 
 seo_paginator_message: "%<current>s / %<total>s | "
+
+# no-style-please theme configuration
+theme_config:
+  appearance: "auto"                    # light, dark, or auto
+  show_description: true
+  back_home_text: "← home"
+
+# Defaults for all pages
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: post

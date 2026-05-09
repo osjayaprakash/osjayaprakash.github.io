@@ -1,0 +1,12 @@
+- title: Home
+  url: /
+
+- title: Blog
+  url: /blog/
+
+- title: Links
+  url: /links.html
+
+- title: LinkedIn
+  url: https://linkedin.com/in/osjayaprakash
+  external: true

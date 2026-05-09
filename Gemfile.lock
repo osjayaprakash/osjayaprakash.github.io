@@ -243,6 +243,10 @@ GEM
     minitest (5.26.1)
     net-http (0.7.0)
       uri
+    no-style-please (0.4.9)
+      jekyll (~> 3.10.0)
+      jekyll-feed (~> 0.17.0)
+      jekyll-seo-tag (~> 2.8.0)
     nokogiri (1.18.10-aarch64-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.18.10-aarch64-linux-musl)
@@ -306,6 +310,7 @@ PLATFORMS
 DEPENDENCIES
   faraday-retry
   github-pages
+  no-style-please
   webrick (~> 1.9)
 
 BUNDLED WITH

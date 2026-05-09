@@ -1,56 +1,255 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,maximum-scale=2">
 
-    {% seo %}
-    {% include head-custom.html %}
-  </head>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
 
-  <body>
+  {% seo %}
+  {% feed_meta %}
 
-<!-- HEADER -->
-<!--
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          {% if site.github.is_project_page %}
-            <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-          {% endif %}
+  <style>
+    :root {
+      --font-size: 1rem;
+      --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif;
+      --line-height: 1.6;
+      --color-text: #333;
+      --color-bg: #fff;
+      --color-link: #0066cc;
+      --color-border: #ddd;
+    }
 
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-text: #e8e8e8;
+        --color-bg: #1a1a1a;
+        --color-link: #66b3ff;
+        --color-border: #444;
+      }
+    }
 
-          {% if site.show_downloads %}
-            <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-            </section>
-          {% endif %}
-        </header>
-    </div> -->
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <div style="margin-bottom: 30px;">
-          {% include nav.html %}
-        </div>
-        {{ content }}
-      </section>
-    </div>
+    html {
+      font-size: var(--font-size);
+      line-height: var(--line-height);
+    }
 
-    <!-- FOOTER  -->
-<!--     <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div> -->
-  </body>
+    body {
+      font-family: var(--font-family);
+      color: var(--color-text);
+      background-color: var(--color-bg);
+      padding: 2rem;
+      max-width: 42rem;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 576px) {
+      body {
+        padding: 1rem;
+      }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 2rem 0 1rem 0;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.75rem; }
+    h3 { font-size: 1.5rem; }
+    h4 { font-size: 1.25rem; }
+    h5 { font-size: 1.1rem; }
+    h6 { font-size: 1rem; }
+
+    p {
+      margin: 1rem 0;
+    }
+
+    a {
+      color: var(--color-link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    code {
+      font-family: "Courier New", monospace;
+      font-size: 0.9em;
+      background-color: var(--color-border);
+      padding: 0.2em 0.4em;
+      border-radius: 3px;
+    }
+
+    pre {
+      background-color: var(--color-border);
+      padding: 1rem;
+      overflow-x: auto;
+      border-radius: 5px;
+      margin: 1rem 0;
+    }
+
+    pre code {
+      background-color: transparent;
+      padding: 0;
+    }
+
+    blockquote {
+      border-left: 3px solid var(--color-border);
+      padding-left: 1rem;
+      margin: 1rem 0;
+      color: var(--color-text);
+      opacity: 0.8;
+    }
+
+    ul, ol {
+      margin: 1rem 0;
+      padding-left: 2rem;
+    }
+
+    li {
+      margin: 0.5rem 0;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+    }
+
+    th, td {
+      border: 1px solid var(--color-border);
+      padding: 0.5rem;
+      text-align: left;
+    }
+
+    th {
+      font-weight: 600;
+      background-color: var(--color-border);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem 0;
+    }
+
+    .nav {
+      text-align: center;
+      margin: 2rem 0;
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .nav a {
+      margin: 0 1rem;
+      display: inline-block;
+    }
+
+    .post-list {
+      list-style: none;
+    }
+
+    .post-item {
+      margin: 1.5rem 0;
+    }
+
+    .post-meta {
+      color: var(--color-text);
+      opacity: 0.7;
+      font-size: 0.9rem;
+    }
+
+    .post-date {
+      margin-right: 0.5rem;
+    }
+
+    .separator {
+      margin: 0 0.5rem;
+    }
+
+    .post-link {
+      font-weight: 500;
+      font-size: 1.1rem;
+    }
+
+    .post-excerpt {
+      margin-top: 0.5rem;
+      opacity: 0.85;
+      font-size: 0.95rem;
+    }
+
+    .back-link {
+      margin-bottom: 2rem;
+      color: var(--color-text);
+      opacity: 0.7;
+    }
+
+    .toc {
+      background-color: var(--color-border);
+      padding: 1rem;
+      border-radius: 5px;
+      margin: 1rem 0;
+    }
+
+    .toc > h2 {
+      margin-top: 0;
+    }
+
+    .toc ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .toc ul li {
+      margin: 0.3rem 0;
+      padding-left: 1rem;
+    }
+
+    .toc a {
+      color: var(--color-link);
+    }
+  </style>
+
+  {% include head-custom.html %}
+</head>
+
+<body>
+  <nav class="nav">
+    {%- if site.data.menu -%}
+      {%- for item in site.data.menu -%}
+        {%- if item.entries -%}
+          {%- for subitem in item.entries -%}
+            <a href="{{ subitem.url }}" {% if subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ subitem.title }}</a>
+          {%- endfor -%}
+        {%- else -%}
+          <a href="{{ item.url }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %} {% if page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    {%- else -%}
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+      <a href="/links.html">Links</a>
+    {%- endif -%}
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  {% include foot.html %}
+</body>
+
 </html>

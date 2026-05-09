@@ -1,32 +1,18 @@
 ---
 layout: home
-title: Jayaprakash Sundararaj - Engineer @ Google - Yahoo - IITB
-link: /index.html
+title: Jayaprakash Sundararaj
+description: Senior Software Engineer at Google
 ---
 
-<!-- ### JAYAPRAKASH SUNDARARAJ
+I am a Senior Software Engineer at [Google USA](https://www.google.com/), working in search ranking and personalization projects. My work focuses on developing and training deep learning models and leveraging large language models (LLMs) for search ranking.
 
---- -->
+**Education**: M.Tech in CSE from **IIT Bombay**, India & B.Tech in IT from **Anna University**, Chennai
 
-<!-- <img src="/images/jp.jpg" alt="Jayaprakash Sundararaj" width="125" style="border-radius: 20px; display: block; margin-left: auto; margin-right: auto;" /> -->
+**Experience**: Previously worked at **Yahoo! Research** and **Alcatel Lucent Labs**
 
-<!-- <div style="text-align: justify;" markdown="1"> -->
+**Links**: [LinkedIn](https://linkedin.com/in/osjayaprakash) · [GitHub](https://github.com/osjayaprakash) · [Google Scholar](https://scholar.google.co.in/citations?user=jPdxJqgAAAAJ)
 
-I am a Senior Software Engineer at [Google USA](https://www.google.com/), working in search ranking and personalization projects. My work focuses on developing and training deep learning models and leveraging large language models (LLMs) for search ranking. I have a post-graduation degree in CSE from **IIT Bombay**, India & undergraduate degree in IT from **Anna University**, Chennai. Previously, I have worked at **Yahoo! Research** and **Alcatel Lucent Labs**.
-
-<center>
-<nav>
-<a href="https://linkedin.com/in/osjayaprakash" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-&nbsp;&nbsp;/&nbsp;&nbsp;
-<a href="https://github.com/osjayaprakash" target="_blank" rel="noopener noreferrer">GitHub</a>
-&nbsp;&nbsp;/&nbsp;&nbsp;
-<a href="https://www.cse.iitb.ac.in/~jayaprakash12/" target="_blank" rel="noopener noreferrer">IIT Bombay</a>
-&nbsp;&nbsp;/&nbsp;&nbsp;
-<a href="https://pypi.org/user/osjayaprakash/" target="_blank" rel="noopener noreferrer">Opensource</a>
-</nav>
-</center>
-
-#### PROJECTS
+## Projects
 
 1. **[Google] Query recommendations in Play Store Search Home**
 
@@ -52,7 +38,7 @@ I am a Senior Software Engineer at [Google USA](https://www.google.com/), workin
 
     I was involved in research on statistical machine translation at IIT Bombay. The focus was on developing and improving translation models for Indian languages, utilizing statistical techniques to enhance accuracy and fluency in translations.
 
-#### PUBLICATIONS
+## Publications
 
 * [2024] J Sundararaj, A Vyas, B Gonzalez-Maldonado, Automated LaTeX Code Generation from Handwritten Math Expressions Using Vision Transformer, arXiv preprint arXiv:2412.03853, 2024. [https://arxiv.org/abs/2412.03853](https://arxiv.org/abs/2412.03853)
 * [2024] J Kumar, K Jayakumar, J Sundararaj, ESMCrystal: Enhancing Protein Crystallization Prediction Through Protein Embeddings, Proceedings of CIBB, 2024. [https://easychair.org/publications/preprint/FTCX/](https://easychair.org/publications/preprint/FTCX/)
@@ -62,7 +48,7 @@ I am a Senior Software Engineer at [Google USA](https://www.google.com/), workin
 * [2013] J Sundararaj, Survey on Semantic Web and Search Techniques, Indian Institute of Technology, Bombay
 * [2013] J Sundararaj, Technical Paper on Kappa Score - Interrater Annotation Agreement, Indian Institute of Technology, Bombay
 
-#### MISC
+## Miscellaneous
 
 * Received over 20 Google Awards (Peer and Spot bonus) for my contributions.
 * Reviewer for ACL (2024, 2025), EMNLP (2024), IEEE TNNLS (2023, 2024).
