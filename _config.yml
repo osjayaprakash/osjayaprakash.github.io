@@ -18,7 +18,7 @@ author:
 # remote_theme: pages-themes/slate
 # remote_theme: pages-themes/slate@v0.2.0
 #theme: jekyll-theme-slate
-theme: no-style-please
+remote_theme: riggraz/no-style-please
 
 defaults:
   - values:
